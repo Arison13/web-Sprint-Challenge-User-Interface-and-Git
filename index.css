@@ -1,0 +1,369 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* .middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} had to make individual tags for boxes
+to change the background.*/
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-left:16rem;
+    /* border: 10px solid red; */
+    padding: 2% 0;
+}
+header .navbar a {
+    text-decoration: none;
+    color:black;
+}
+nav img {
+    margin-top:-20px;
+    font-size:200px;
+}
+
+.img-navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.middle-content .boxes .box1{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: teal;
+}
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* _________________________________________________________
+from here on is the about page */
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+.top-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 55%;
+    margin-left: 20rem;
+}
+.top-about .about-container {
+    padding: 0 1%;
+    padding-bottom: 15px;  
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left:10rem;
+}
+.strategy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    border-bottom:1px dashed black;
+    width:400px;
+    margin-left:14%;
+    margin-bottom:3rem;
+}
+
+.how {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    border-bottom:1px dashed black;
+    width:400px;
+    margin-right:1%;
+    margin-bottom:3rem;
+}
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    border-bottom:1px dashed black;
+    width:400px;
+    margin-left:14%;
+    margin-bottom:3rem;
+}
+.collab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    border-bottom:1px dashed black;
+    width:400px;
+    margin-right:1%;
+    margin-bottom:3rem;
+}
+
+button {
+    padding:10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+    width: 8rem;
+    background: white;
+    font-weight: bold;
+    border:2px solid black;
+}
+
+.about-bottom {
+    display: flex;
+    justify-content:center;
+    width: 800px;
+    margin-left:20rem;
+    padding-bottom:20px;
+}
+.about-footer {
+    width:58%;
+    margin-left: 20rem;
+    display: flex;
+    justify-content: flex-start;
+}
+button:hover {
+ background: black;
+ color:white;
+ cursor: progress;
+}
+/* NOTE: i dont know if its a requiriment but i noticed that 
+when the screen size changed, the design/layout changed as well
+i think it might be cause im using % but i tried rems and the same
+thing happen even if its not part of the requirements i would like 
+to know if there's a way to fix that.  */
