@@ -101,7 +101,17 @@ p {
     justify-content: space-evenly;
 }
 
-/* s */
+/* .middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} had to make individual tags for boxes
+to change the background.*/
 
 .bottom-content {
     display: flex;
@@ -136,7 +146,7 @@ footer nav a {
     text-decoration: none;
 }
 
-nav {
+.navbar{
     display: flex;
     justify-content: space-evenly;
     width: 60%;
@@ -144,7 +154,7 @@ nav {
     /* border: 10px solid red; */
     padding: 2% 0;
 }
-a {
+header .navbar a {
     text-decoration: none;
     color:black;
 }
@@ -258,5 +268,102 @@ nav img {
     align-items: center;
     justify-content: center;
 }
+/* _________________________________________________________
+from here on is the about page */
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+.top-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 55%;
+    margin-left: 20rem;
+}
+.top-about .about-container {
+    padding: 0 1%;
+    padding-bottom: 15px;  
+}
 
+.about-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left:10rem;
+}
+.strategy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    border-bottom:1px dashed black;
+    width:400px;
+    margin-left:14%;
+    margin-bottom:3rem;
+}
 
+.how {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    border-bottom:1px dashed black;
+    width:400px;
+    margin-right:1%;
+    margin-bottom:3rem;
+}
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    border-bottom:1px dashed black;
+    width:400px;
+    margin-left:14%;
+    margin-bottom:3rem;
+}
+.collab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    border-bottom:1px dashed black;
+    width:400px;
+    margin-right:1%;
+    margin-bottom:3rem;
+}
+
+button {
+    padding:10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+    width: 8rem;
+    background: white;
+    font-weight: bold;
+    border:2px solid black;
+}
+
+.about-bottom {
+    display: flex;
+    justify-content:center;
+    width: 800px;
+    margin-left:20rem;
+    padding-bottom:20px;
+}
+.about-footer {
+    width:58%;
+    margin-left: 20rem;
+    display: flex;
+    justify-content: flex-start;
+}
+button:hover {
+ background: black;
+ color:white;
+ cursor: progress;
+}
+/* NOTE: i dont know if its a requiriment but i noticed that 
+when the screen size changed, the design/layout changed as well
+i think it might be cause im using % but i tried rems and the same
+thing happen even if its not part of the requirements i would like 
+to know if there's a way to fix that.  */
